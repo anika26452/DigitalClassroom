@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingRight="15dp"
+    tools:context=".StudentProfile">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nameview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:clickable="false"
+            android:fontFamily="@font/abril_fatface"
+            android:text=" Name                 :"
+            android:textColor="@color/inside"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="name"
+            android:textColor="@color/Theme"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:id="@+id/idview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text=" Id                           :"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="id"
+            android:textSize="20sp"
+            android:textColor="@color/Theme" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/EmailId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/abril_fatface"
+            android:text=" Email                 :"
+            android:textSize="20sp"
+            android:textColor="@color/inside" />
+
+        <TextView
+            android:id="@+id/email"
+            android:textColor="@color/Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Email"
+            android:textSize="20sp"
+            android:layout_marginLeft="19dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:id="@+id/Attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Attendanc     :"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="136dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Attendance Mark :"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/markattendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:id="@+id/attendancemail"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/sendemail" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:id="@+id/CTOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="CT1 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/ct1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:textSize="20sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_marginLeft="43dp"
+            android:textColor="@color/inside"
+            android:id="@+id/CTTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="CT2  :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/ct2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_marginLeft="43dp"
+            android:textColor="@color/inside"
+            android:id="@+id/CTThree"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="CT3 :" />
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/ct3"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="CT  avr :"
+            android:textColor="@color/inside"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ctavr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:textColor="@color/Theme"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ctmail"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/sendemail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Presentation :"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/markpresentation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:id="@+id/presentationmail"
+            android:src="@drawable/sendemail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Assignment    :"
+            android:textColor="@color/inside"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/markassignment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:id="@+id/assignmentmail"
+            android:src="@drawable/sendemail"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Mid-Term        :"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/markmid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:id="@+id/midmail"
+            android:src="@drawable/sendemail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textColor="@color/inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Final Exam     :"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:textColor="@color/Theme"
+            android:id="@+id/markfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="0.0"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:background="@color/Theme"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:id="@+id/result" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/resultview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/Theme" />
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:id="@+id/resultmail"
+            android:visibility="gone"
+            android:src="@drawable/sendemail"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

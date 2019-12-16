@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:padding="8dp"
+    android:background="@color/Theme">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titletextview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Course title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoimageview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_info_black_24dp"
+        android:alpha="0.5"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="Information of this course"
+        app:layout_constraintRight_toLeftOf="@+id/editimageview"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editimageview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/deleteimageview"
+        android:src="@drawable/ic_edit_black_24dp"
+        android:alpha="0.5"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="Edit this course"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteimageview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:alpha="0.5"
+        android:contentDescription="Delete this course"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codetextview"
+        app:layout_constraintTop_toBottomOf="@+id/titletextview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Course code:   "
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:alpha="0.5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeview"
+        android:text="cse-123"
+        app:layout_constraintTop_toBottomOf="@+id/titletextview"
+        app:layout_constraintLeft_toRightOf="@+id/codetextview"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#ffff"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

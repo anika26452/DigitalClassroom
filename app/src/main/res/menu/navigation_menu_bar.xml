@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_black_24dp">
+
+        </item>
+
+        <item
+            android:id="@+id/course"
+            android:title="Courses"
+            android:icon="@drawable/ic_class_black_24dp">
+
+        </item>
+
+        <item
+            android:id="@+id/pdf"
+            android:title="Course Curriculum"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp">
+
+        </item>
+    </group>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/signout"
+                android:title="Sign Out"
+                android:icon="@drawable/logout">
+
+            </item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".SignUpPage">
+
+    <EditText
+        android:id="@+id/setname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:cursorVisible="true"
+        android:inputType="textPersonName"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/Theme"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/setemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email address"
+        android:cursorVisible="true"
+        android:inputType="textWebEmailAddress"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/Theme"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/setpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:cursorVisible="true"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/Theme"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/confirmpasss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter password"
+        android:cursorVisible="true"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="@color/Theme"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" +880"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/setphone"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phone number"
+            android:cursorVisible="true"
+            android:inputType="phone"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@color/Theme"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="#ECE9E9"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@color/Theme"
+        android:layout_marginTop="20dp">
+
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".StudentCreateFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentname"
+        android:backgroundTint="@color/Theme"
+        android:hint="Enter student's name"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentid"
+        android:backgroundTint="@color/Theme"
+        android:hint="Enter student's id"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentemail"
+        android:backgroundTint="@color/Theme"
+        android:hint="Enter student's email"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:background="@color/Theme"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/cancelstudent"/>
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:background="@color/Theme"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/savestudent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

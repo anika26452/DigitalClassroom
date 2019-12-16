@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="150dp"
+    android:background="@color/BackgroundColor"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" name"
+        android:textColor="@color/Theme"
+        android:textSize="35sp"
+        app:fontFamily="@font/abril_fatface">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/emailtextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" email"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/Theme"
+        app:fontFamily="@font/abril_fatface">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phonetextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" phone"
+        android:textSize="25sp"
+        android:textColor="@color/Theme"
+        android:gravity="center"
+        app:fontFamily="@font/abril_fatface">
+
+    </TextView>
+
+</LinearLayout>

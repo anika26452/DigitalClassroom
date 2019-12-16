@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Digital Classroom</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string-array name="Weekdays">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string name="course_curiculum">Course Curriculum of B.Sc. in CSE Program</string>
+    <string name="class_schedule">Class schedule of FALL 2019</string>
+</resources>
